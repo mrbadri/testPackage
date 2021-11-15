@@ -1,5 +1,4 @@
-module.exports.test = (input) => input * 2;
-module.exports.Navimation = Navimation;
+
 
 function NV_Fn() {
   function style(element, css) {
@@ -77,3 +76,11 @@ function Navimation(config) {
 
   NV_Fn().animation({ navbar, items, animation });
 }
+
+function testNpm () {
+    console.log("win");
+}
+
+
+module.exports ={ Navimation  , testNpm};
+
